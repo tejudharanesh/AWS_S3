@@ -1,13 +1,13 @@
-// App.js
 import React from "react";
-import UploadForm from "./components/UploadForm";
-const App = () => {
+import "./App.css";
+import ImageUpload from "./components/ImageUpload";
+
+function App() {
   return (
-    <div>
-      <h1>Upload Images and video to store in cloud</h1>
-      <UploadForm />
+    <div className="App">
+      <ImageUpload />
     </div>
   );
-};
+}
 
 export default App;
